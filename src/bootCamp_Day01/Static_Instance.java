@@ -22,8 +22,6 @@ class Circle{
 
 }
 
-
-
 public class Static_Instance {
 
     public static void main(String[] args) {
@@ -36,5 +34,32 @@ public class Static_Instance {
      //   System.out.println( circle1.calculateArea() );
 
     }
+
+}
+
+
+class ClassA{
+
+    static int a = 100;
+    int b = 200;
+
+    static class ClassB{
+
+        public static void method1(){
+            System.out.println(a);
+          //  System.out.println(b);
+        }
+
+    }
+
+}
+
+
+class ClassC extends ClassA.ClassB{
+
+}
+
+
+class ClassD{
 
 }
