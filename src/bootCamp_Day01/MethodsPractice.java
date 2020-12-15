@@ -39,4 +39,21 @@ public class MethodsPractice {
     }
 
 
+    public static void method(){
+
+    }
+
+    private static int method(int a){
+        return a;
+    }
+
+    private static double method(int a, int b){
+        return a;
+    }
+
+
+
+
+
+
 }
