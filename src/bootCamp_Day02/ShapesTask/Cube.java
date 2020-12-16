@@ -28,4 +28,15 @@ public class Cube extends Shape implements HasVolume{
     public double calculateVolume() {
         return side * side * side;
     }
+
+    @Override
+    public String toString() {
+        return "Cube{" +
+                "side=" + side +
+                ", volume=" + volume +
+                ", name='" + name + '\'' +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                '}';
+    }
 }

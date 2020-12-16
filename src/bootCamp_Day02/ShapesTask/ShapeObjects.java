@@ -20,6 +20,14 @@ public class ShapeObjects  {
         System.out.println(square);
 
 
+        Cube cube = new Cube(5);
+
+        System.out.println(cube);
+
+
+
+
+
     }
 
 }
