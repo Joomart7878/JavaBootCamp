@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class Rectangle extends Shape {
+public final class Rectangle extends Shape {
 
     public double width, length;
 

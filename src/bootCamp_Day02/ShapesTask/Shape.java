@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class Shape {
+public  class Shape {
 
 
     public String name;

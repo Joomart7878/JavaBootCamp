@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class Circle extends Shape {
+public final class Circle extends Shape {
 
     public double radius;
     public final static double PI ;

@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class Square extends Shape{
+public final class Square extends Shape{
 
     public double side;
 

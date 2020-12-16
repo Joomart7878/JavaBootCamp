@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class ShapeObjects {
+public class ShapeObjects  {
 
     public static void main(String[] args) {
         // r = 5;
