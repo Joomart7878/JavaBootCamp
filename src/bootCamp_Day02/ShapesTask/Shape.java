@@ -1,7 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public  class Shape {
-
+public  abstract class Shape {
 
     public String name;
 
@@ -12,13 +11,11 @@ public  class Shape {
     public double area;
     public double perimeter;
 
-    public double calculateArea(){
-        return 0;
-    }
+    public abstract double calculateArea();
 
-    public double calculatePerimeter(){
-        return 0;
-    }
+    public abstract double calculatePerimeter();
+
+
 
     @Override
     public String toString() {
@@ -29,4 +26,9 @@ public  class Shape {
                 '}';
     }
 
+}
+
+
+class C{
+  //  Shape s1 = new Shape();
 }
