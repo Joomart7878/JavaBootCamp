@@ -1,13 +1,13 @@
 package bootCamp_Day02;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 
 public class ExceptionsPractice {
 
     public static void main(String[] args) {
 
         int[] arr ={1,2,3};
-
      //   System.out.println( arr[258] );// unchecked
 
     //   new FileInputStream(""); // checked
@@ -36,5 +36,30 @@ public class ExceptionsPractice {
         System.out.println("Handled");
 
     }
+
+
+    public void test1() throws IOException{
+
+        throw new IOException();
+
+    }
+
+
+    public void test2(){
+        try {
+            test1();
+        }catch (IOException e){
+
+        }
+
+    }
+
+    public void test3(){
+        test2();
+    }
+
+
+
+
 
 }
