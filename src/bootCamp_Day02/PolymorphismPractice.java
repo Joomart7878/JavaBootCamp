@@ -43,8 +43,8 @@ public class PolymorphismPractice {
 
         /*
         WebDriver driver = new ChromeDriver();
-        TakeScreenShot ts = (TakeScreenShot)driver;
 
+        TakeScreenShot ts = (TakeScreenShot)driver;
         JavaScriptExecuter js = (JavaScriptExecuter)driver;
          */
 
