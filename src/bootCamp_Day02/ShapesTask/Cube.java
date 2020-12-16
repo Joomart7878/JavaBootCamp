@@ -1,6 +1,6 @@
 package bootCamp_Day02.ShapesTask;
 
-public class Cube extends Shape implements HasVolume{
+public final class Cube extends Shape implements HasVolume{
 
     public double side;
     public double volume;
